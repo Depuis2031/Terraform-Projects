@@ -7,7 +7,7 @@ resource "aws_kms_key" "s3_key" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  bucket = "obinnatfstate-bucket"
+  bucket = "bootcamp30-7-tabe"
   acl = "private"
   versioning {
     enabled = true
